@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Left panel styling */
+.left-panel {
+    width: 30%;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.left-panel h3 {
+    margin-bottom: 20px;
+}
+
+.left-panel button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.left-panel button:hover {
+    background-color: #ddd;
+}
+
+/* Right panel styling */
+.right-panel {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.right-panel h3 {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: none; /* Hide skills list by default */
+}
+
+.skills-list.active {
+    display: block; /* Show skills when a category is clicked */
+}
+
+.skills-list div {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Feedback Container */
+.feedback-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.feedback-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0000e1;
+}
+
+/* Feedback Item */
+.feedback-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Feedback Header */
+.feedback-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.feedback-header p {
+    margin: 0;
+}
+
+/* Feedback Comment */
+.feedback-comment {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feedback-comment p {
+    margin: 0;
+}
+
+/* Feedback Date */
+.feedback-date {
+    text-align: right;
+    font-size: 13px;
+    color: #999;
+}
+
+/* search bar*/
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
