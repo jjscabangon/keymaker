@@ -1,17 +1,41 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Keymaker (hosted by Saan.App)</title>
-		<script id="keymaker-saan-app"
-			src="/resources/sap-ui-core.js"
-			data-sap-ui-libs="keymaker-saan-app"
-			data-sap-ui-compat-version="edge"
-			data-sap-ui-async="true"
-			data-sap-ui-on-init="module:my/app/main"
-			data-sap-ui-resource-roots='{"my.app": "./"}'>
-		</script>
-	</head>
-	<body class="keymakerBody" id="content">
-	</body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Landing Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="../images/KmLogo1.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Find Jobs</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">What</a></li>
+            </ul>
+        </nav>
+        <div class="button-container">
+        <a class="login" href="../php/loginPage.php"><button>Login</button></a>
+        <a class="Sign Up" href="../html/usertypeSelection.html"><button>Sign Up</button></a>
+        </div>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="../images/1.png" alt="1">
+            <img src="../images/2.png" alt="2">
+            <img src="../images/3.png" alt="3">
+        </div>
+        
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+
+    <script src="../javascript/script.js"></script>
+   
+</body>
 </html>
