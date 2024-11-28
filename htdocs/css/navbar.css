@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 243, 244);
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px 10%;
+    position: relative; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+
+}
+
+
+.logo {
+    width: 210px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 20px; 
+}
+
+nav{
+    padding: 10px 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 40px; /* for gap */
+    margin-right: 100px; 
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav_links li a:hover {
+    color: rgb(193, 0, 0);
+}
+
+
+.user-pic {
+    width: 60px;
+    height: 60px;  
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+.sub-menu-wrap {
+    position: absolute;
+    top: 100%;  
+    right: 11%;   /* for moving the dropdown box */
+    width: 250px;  
+    max-height: 0;  
+    overflow: hidden;
+    transition: max-height 0.5s ease;  
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);  
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 400px;  
+}
+
+
+.sub-menu {
+    background: #fff;
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px;  
+}
+
+
+.sub-menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 4px;  
+    transition: background-color 0.3s ease;  
+}
+
+.sub-menu-link:hover {
+    background-color: rgb(242, 242, 242); 
+}
+
+.sub-menu-link p {
+    margin: 0;
+    width: 100%;
+    font-weight: 500;
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600;
+    color: rgb(193, 0, 0);
+}
